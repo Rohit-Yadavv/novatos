@@ -1,0 +1,36 @@
+/* CountdownTimer.module.css */
+
+.countdown {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.countdown h2 {
+    font-size: 24px;
+    color: #333;
+    /* Choose your desired text color */
+    margin-bottom: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.timer>div {
+    margin: 0 10px;
+}
+
+.timer span {
+    font-weight: bold;
+    font-size: 24px;
+    color: #007bff;
+    /* Choose your desired countdown timer text color */
+}
+
+.timer span:last-child {
+    color: #333;
+    /* Choose your desired text color for "seconds" */
+}
